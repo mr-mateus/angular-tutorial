@@ -7,7 +7,7 @@ import { Contato } from './core/model/contato';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  titulo = 'Gerenciador de contatoscls';
+  titulo = 'Gerenciador de contatos';
   contato = new Contato();
   ngOnInit(): void {
     this.contato = {
